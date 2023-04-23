@@ -1,0 +1,42 @@
+[
+  {
+    "namespace": "orgs",
+    "object": "company-a",
+    "relation": "employee",
+    "subject_id": "Lila"
+  },
+  {
+    "namespace": "orgs",
+    "object": "company-b",
+    "relation": "employee",
+    "subject_id": "Dilan"
+  },
+  {
+    "namespace": "orgs",
+    "object": "company-a",
+    "relation": "employee",
+    "subject_id": "Hadley"
+  },
+  {
+    "namespace": "orgs",
+    "object": "company-b",
+    "relation": "employee",
+    "subject_id": "Neel"
+  },
+  {
+    "namespace": "orgs",
+    "object": "company-a",
+    "relation": "viewer",
+    "subject_id": "Dilan"
+  },
+  {
+    "namespace": "orgs",
+    "object": "company-b",
+    "relation": "viewer",
+    "subject_set": {
+      "namespace": "orgs",
+      "object": "company-b",
+      "relation": "employee"
+    }
+  }
+]

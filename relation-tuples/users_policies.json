@@ -1,0 +1,42 @@
+[
+  {
+    "namespace": "users",
+    "object": "Lila",
+    "relation": "view",
+    "subject_set": {
+      "namespace": "orgs",
+      "object": "company-a",
+      "relation": "viewer"
+    }
+  },
+  {
+    "namespace": "users",
+    "object": "Dilan",
+    "relation": "view",
+    "subject_set": {
+      "namespace": "orgs",
+      "object": "company-b",
+      "relation": "viewer"
+    }
+  },
+  {
+    "namespace": "users",
+    "object": "Hadley",
+    "relation": "view",
+    "subject_set": {
+      "namespace": "orgs",
+      "object": "company-a",
+      "relation": "viewer"
+    }
+  },
+  {
+    "namespace": "users",
+    "object": "Neel",
+    "relation": "view",
+    "subject_set": {
+      "namespace": "orgs",
+      "object": "company-b",
+      "relation": "viewer"
+    }
+  }
+]
